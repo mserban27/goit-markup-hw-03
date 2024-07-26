@@ -1,0 +1,269 @@
+/* reset style */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+address {
+  font-style: normal;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*end reset style*/
+
+:root {
+  --white-text: #ffffff;
+  --iris-text: #4d5ae5;
+  --navy-text: #2e2f42;
+  --cloud-text: #f4f4fd;
+  --slate-text: #434455;
+  --cornflower: #e7e9fc;
+  --ocean: #404bbf;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--slate-text);
+  background-color: var(--white-text);
+}
+
+.logo {
+  color: var(--iris-text);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  line-height: 1.17;
+  text-transform: uppercase;
+}
+
+.header-link {
+  color: var(--navy-text);
+}
+
+.header-item {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--navy-text);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--ocean);
+}
+
+.header-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 24px 832px 24px 347px;
+}
+
+.header-list .header-item {
+  display: inline;
+  margin-left: 347px;
+  margin-top: 24px;
+  margin-right: 832px;
+  margin-bottom: 24px;
+}
+
+.header-address,
+.header-address:hover {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--slate-text);
+}
+
+.header-address:active {
+  color: var(--ocean);
+}
+
+.header-nav {
+  background-color: var(--white-text);
+}
+
+.header-link-address {
+  color: var(--slate-text);
+}
+
+.address {
+  font-style: normal;
+}
+
+.header-link-address:hover,
+.header-link-address:focus {
+  color: var(--ocean);
+}
+
+.primary-section {
+  background-color: var(--navy-text);
+  line-height: 1.07;
+}
+
+.primary-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white-text);
+  background-color: var(--navy-text);
+}
+
+.primary-button {
+  background-color: var(--iris-text);
+  color: var(--white-text);
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 16px 32px;
+  border-radius: 4px;
+  gap: 10px;
+}
+
+.primary-button:hover {
+  background-color: #404bbf;
+}
+
+.primary-button:focus {
+  background-color: #404bbf;
+}
+
+.second-section-text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--navy-text);
+}
+
+.team-section {
+  background-color: var(--cloud-text);
+}
+
+.secondary-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-text);
+  background-color: var(--white-text);
+}
+
+.team-header {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-text);
+}
+
+.team-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--slate-text);
+}
+
+.team-members {
+  background-color: var(--white-text);
+}
+
+.portfolio-section {
+  border-color: #e7e9fc;
+  line-height: 1.11;
+  color: var(--navy-text);
+}
+
+.portfolio-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--navy-text);
+}
+.portfolio-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--slate-text);
+}
+
+.first-portfolio-line {
+  border-style: solid;
+  border-color: var(--cornflower);
+}
+
+.second-portfolio-line {
+  background-color: var(--white-text);
+}
+
+.portfolio-header {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.portfolio-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.footer {
+  color: var(--navy-text);
+  background-color: #2e2f42;
+}
+
+.footer-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--cloud-text);
+}
