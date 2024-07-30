@@ -45,6 +45,7 @@ address {
   --cornflower: #e7e9fc;
   --ocean: #404bbf;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--slate-text);
@@ -52,6 +53,8 @@ body {
 }
 
 .logo {
+  display: inline;
+  margin: 156px;
   color: var(--iris-text);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -81,21 +84,20 @@ body {
 }
 
 .header-container {
+  display: inline-flex;
   max-width: 1440px;
   margin: 0 auto;
+  border: 1px;
   padding: 24px 832px 24px 347px;
 }
 
 .header-list .header-item {
   display: inline;
-  margin-left: 347px;
-  margin-top: 24px;
-  margin-right: 832px;
-  margin-bottom: 24px;
 }
 
 .header-address,
 .header-address:hover {
+  display: inline;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -116,7 +118,18 @@ body {
 }
 
 .address {
+  display: inline;
   font-style: normal;
+}
+
+.address:first-child {
+  margin-right: 940px;
+  margin-left: auto;
+}
+
+.address:last-child {
+  margin-right: 1133px;
+  margin-left: auto;
 }
 
 .header-link-address:hover,
@@ -130,6 +143,7 @@ body {
 }
 
 .primary-title {
+  display: block;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -137,6 +151,8 @@ body {
   text-align: center;
   color: var(--white-text);
   background-color: var(--navy-text);
+  margin: 260px 472px;
+
 }
 
 .primary-button {
@@ -146,9 +162,14 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  padding: 16px 32px;
+  padding: 16px 32px 16px 32px;
   border-radius: 4px;
   gap: 10px;
+  margin: 428px 636px;
+  width: 169px;
+  height: 56px;
+  radius: 4px;
+  align: center;
 }
 
 .primary-button:hover {
@@ -159,13 +180,30 @@ body {
   background-color: #404bbf;
 }
 
+.second-container {
+  display: inline-block;
+  max-width: 1128px;
+  height: 104px;
+  margin-top: 792px;
+  margin-left: 156px;
+  margin-bottom: auto;
+  margin-right: auto;
+}
+
 .second-section-text {
+  display: inline-block;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
   color: var(--navy-text);
+}
+
+.team-container {
+  max-width:1440px;
+  height: 732px;
+  margin-top: 1016px;
 }
 
 .team-section {
@@ -181,6 +219,10 @@ body {
   text-align: center;
   color: var(--navy-text);
   background-color: var(--white-text);
+  width: 162px;
+  height: 40px;
+  margin-top: 1136px;
+  margin-left: 639px;
 }
 
 .team-header {
