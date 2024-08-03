@@ -77,28 +77,25 @@ body {
 .header-link:focus {
   color: var(--ocean);
 }
-.header-container:first-child {
-  display: flex;
-}
 
 .container {
+  padding: 120px 0;
+}
+
+.header-container {
+  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
-.header-container {
-  display: flex;
+.header-background {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 832px 24px 347px;
 }
 
 .header-list {
   display: flex;
   gap: 40px;
-}
-
-.header-item {
   padding: 24px 0;
 }
 
@@ -142,10 +139,6 @@ body {
   padding: 188px 0;
 }
 
-.primary-container {
-  max-width: 496px;
-}
-
 .primary-title {
   display: block;
   font-size: 56px;
@@ -156,6 +149,7 @@ body {
   color: var(--white-text);
   background-color: var(--navy-text);
   margin: 260px 472px;
+  max-width: 496px;
 }
 
 .primary-button {
@@ -185,7 +179,7 @@ body {
   background-color: #404bbf;
 }
 
-.second-section-text {
+.second-section-title {
   display: inline-block;
   font-size: 20px;
   font-weight: 500;
@@ -193,7 +187,7 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   color: var(--navy-text);
-  padding: 120px 0;
+  margin-bottom: 8px;
 }
 
 .second-container {
@@ -206,12 +200,22 @@ body {
   margin-right: auto;
 }
 
+h2 .visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 .secondary-list {
   display: flex;
   gap: 24px;
 }
 
-.strategy-list {
+.element-list {
   width: calc((100% - 72px) / 4);
 }
 
@@ -238,6 +242,12 @@ body {
   height: 40px;
   margin-top: 1136px;
   margin-left: 639px;
+  margin-bottom:72px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
 }
 
 .team-header {
@@ -247,6 +257,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--navy-text);
+  margin-bottom: 8px;
 }
 
 .team-paragraph {
@@ -260,12 +271,20 @@ body {
 
 .team-members {
   background-color: var(--white-text);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.members-name-container {
+  padding: 32px 0;
 }
 
 .portfolio-section {
   border-color: #e7e9fc;
   line-height: 1.11;
   color: var(--navy-text);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -276,7 +295,16 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: var(--navy-text);
+  margin-bottom: 72px;
 }
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
 .portfolio-paragraph {
   font-size: 16px;
   font-weight: 400;
@@ -289,6 +317,14 @@ body {
 .first-portfolio-line {
   border-style: solid;
   border-color: var(--cornflower);
+  width: calc((100% - 48px) / 3);
+}
+
+.app-name-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 
 .second-portfolio-line {
@@ -314,6 +350,9 @@ body {
 .footer {
   color: var(--navy-text);
   background-color: #2e2f42;
+  padding: 100px 0;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-paragraph {
@@ -323,4 +362,5 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   color: var(--cloud-text);
+  max-width: 264px;
 }
