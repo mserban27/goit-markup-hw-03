@@ -30,6 +30,10 @@ a {
   font-style: normal;
 }
 
+img {
+  display: block;
+}
+
 /*end reset style*/
 
 :root {
@@ -200,6 +204,10 @@ body {
   margin-right: auto;
 }
 
+.secondary-section {
+  padding: 120px 0;
+}
+
 h2 .visually-hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -227,6 +235,7 @@ h2 .visually-hidden {
 
 .team-section {
   background-color: var(--cloud-text);
+  padding: 120px 0;
 }
 
 .secondary-title {
@@ -350,7 +359,6 @@ h2 .visually-hidden {
 .footer {
   color: var(--navy-text);
   background-color: #2e2f42;
-  padding: 100px 0;
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -363,4 +371,8 @@ h2 .visually-hidden {
   text-align: left;
   color: var(--cloud-text);
   max-width: 264px;
+}
+
+.footer-container {
+  padding: 100px 0;
 }
