@@ -1,37 +1,33 @@
 /* reset style */
+ul {
+  padding-inline-start: 0;
+
+  margin-block-start: 0;
+
+  margin-block-end: 0;
+
+  /* margin: 0;
+
+  padding: 0; */
+
+  list-style-type: none;
+}
+
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 p {
-  margin: 0;
+  margin-block-start: 0;
+
+  margin-block-end: 0;
+
+  /* margin: 0; */
 }
-html {
-  box-sizing: border-box;
-}
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
-}
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-address {
-  font-style: normal;
-}
-.link {
+
+a {
   text-decoration: none;
-  color: inherit;
-}
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+
+  font-style: normal;
 }
 
 /*end reset style*/
@@ -53,8 +49,7 @@ body {
 }
 
 .logo {
-  display: inline;
-  margin: 156px;
+  margin-right: 76px;
   color: var(--iris-text);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -82,22 +77,34 @@ body {
 .header-link:focus {
   color: var(--ocean);
 }
+.header-container:first-child {
+  display: flex;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 
 .header-container {
-  display: inline-flex;
-  max-width: 1440px;
-  margin: 0 auto;
-  border: 1px;
+  display: flex;
+  border: 1px solid #e7e9fc;
   padding: 24px 832px 24px 347px;
 }
 
-.header-list .header-item {
-  display: inline;
+.header-list {
+  display: flex;
+  gap:40px;
+
+}
+
+.header-item {
+  padding: 24px 0;
 }
 
 .header-address,
 .header-address:hover {
-  display: inline;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -110,6 +117,8 @@ body {
 }
 
 .header-nav {
+  display: flex;
+  align-items: center;
   background-color: var(--white-text);
 }
 
@@ -118,18 +127,9 @@ body {
 }
 
 .address {
-  display: inline;
+  display: flex;
   font-style: normal;
-}
-
-.address:first-child {
-  margin-right: 940px;
-  margin-left: auto;
-}
-
-.address:last-child {
-  margin-right: 1133px;
-  margin-left: auto;
+  gap: 40px;
 }
 
 .header-link-address:hover,
@@ -152,7 +152,6 @@ body {
   color: var(--white-text);
   background-color: var(--navy-text);
   margin: 260px 472px;
-
 }
 
 .primary-button {
@@ -201,7 +200,7 @@ body {
 }
 
 .team-container {
-  max-width:1440px;
+  max-width: 1440px;
   height: 732px;
   margin-top: 1016px;
 }
