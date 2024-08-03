@@ -26,7 +26,7 @@
 
   <body>
     <header class="header-background">
-      <div class="header-container">
+      <div class="header-container container">
         <nav class="header-nav" id="navigation">
           <a href="./index.html" class="logo"
             >Web<span style="color: #2e2f42">Studio</span></a
@@ -43,8 +43,8 @@
             </li>
           </ul>
         </nav>
-        <address class="address">
-          <ul>
+        <address>
+          <ul class="address">
             <li class="header-address">
               <a href="mailto:info@devstudio.com" class="header-link-address"
                 >info@devstudio.com</a
@@ -62,36 +62,38 @@
 
     <main>
       <section class="primary-section section">
-        <h1 class="primary-title">Effective Solutions for Your Business</h1>
-        <button type="button" class="primary-button">Order Service</button>
+        <div class="first-container">
+          <h1 class="primary-title">Effective Solutions for Your Business</h1>
+          <button class="primary-button" type="button">Order Service</button>
+        </div>
       </section>
 
       <section class="secondary-section section">
-        <h2></h2>
         <div class="second-container">
-          <ul>
-            <li>
+          <div class="visually-hidden"><h2></h2></div>
+          <ul class="secondary-list">
+            <li class="strategy-list">
               <h3 class="second-section-text">Strategy</h3>
               <p class="portfolio-paragraph">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="punctuality-list">
               <h3 class="second-section-text">Punctuality</h3>
               <p class="portfolio-paragraph">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="diligence-list">
               <h3 class="second-section-text">Diligence</h3>
               <p class="portfolio-paragraph">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="technologies-list">
               <h3 class="second-section-text">Technologies</h3>
               <p class="portfolio-paragraph">
                 Design practice focused on digital experiences. We bring forth a
@@ -101,8 +103,9 @@
           </ul>
         </div>
       </section>
-      <div class="team-container">
-        <section class="team-section section">
+
+      <section class="team-section section">
+        <div class="team-container">
           <h2 class="secondary-title">Our Team</h2>
           <ul>
             <li class="team-members">
@@ -146,8 +149,9 @@
               <p class="team-paragraph">UI Designer</p>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
+
       <section class="portfolio-section section">
         <h2 class="portfolio-title">Our Portfolio</h2>
         <ul>
