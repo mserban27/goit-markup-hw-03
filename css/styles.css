@@ -75,6 +75,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--navy-text);
+  padding: 24px 0;
 }
 
 .header-link:hover,
@@ -100,7 +101,6 @@ body {
 .header-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .header-address,
@@ -221,10 +221,6 @@ h2 .visually-hidden {
 .secondary-list {
   display: flex;
   gap: 24px;
-}
-
-.element-list {
-  width: calc((100% - 72px) / 4);
 }
 
 .team-container {
@@ -356,11 +352,15 @@ h2 .visually-hidden {
   text-align: left;
 }
 
+.footer-container {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .footer {
   color: var(--navy-text);
   background-color: #2e2f42;
-  display: inline-block;
-  margin-bottom: 16px;
+  padding: 100px 0;
 }
 
 .footer-paragraph {
@@ -373,6 +373,3 @@ h2 .visually-hidden {
   max-width: 264px;
 }
 
-.footer-container {
-  padding: 100px 0;
-}
