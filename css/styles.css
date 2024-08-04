@@ -208,7 +208,7 @@ body {
   padding: 120px 0;
 }
 
-h2 .visually-hidden {
+.visually-hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   height: 1px;
@@ -216,6 +216,10 @@ h2 .visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+.element-list {
+  width: calc((100% - 72px) / 4);
 }
 
 .secondary-list {
@@ -352,15 +356,12 @@ h2 .visually-hidden {
   text-align: left;
 }
 
-.footer-container {
-  display: inline-block;
-  margin-bottom: 16px;
-}
-
 .footer {
   color: var(--navy-text);
   background-color: #2e2f42;
   padding: 100px 0;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-paragraph {
