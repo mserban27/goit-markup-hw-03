@@ -209,13 +209,16 @@ body {
 }
 
 .visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
   position: absolute;
-  white-space: nowrap;
   width: 1px;
+  height: 1px;
+  margin: -1;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(50%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .element-list {
@@ -251,7 +254,7 @@ body {
   height: 40px;
   margin-top: 1136px;
   margin-left: 639px;
-  margin-bottom:72px;
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -373,4 +376,3 @@ body {
   color: var(--cloud-text);
   max-width: 264px;
 }
-
