@@ -368,8 +368,6 @@ body {
 }
 
 footer {
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer-paragraph {
@@ -380,4 +378,6 @@ footer {
   text-align: left;
   color: var(--cloud-text);
   max-width: 264px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
