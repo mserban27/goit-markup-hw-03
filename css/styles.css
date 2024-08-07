@@ -85,13 +85,13 @@ body {
 
 .container {
   padding: 120px 0;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header-container {
   display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 .header-background {
@@ -128,8 +128,10 @@ body {
 
 .address {
   display: flex;
-  font-style: normal;
   gap: 40px;
+  justify-content: space-around;
+  padding-top: 24px;
+  margin-left: 332px;
 }
 
 .header-link-address:hover,
@@ -363,6 +365,9 @@ body {
   color: var(--navy-text);
   background-color: #2e2f42;
   padding: 100px 0;
+
+}
+footer {
   display: inline-block;
   margin-bottom: 16px;
 }
