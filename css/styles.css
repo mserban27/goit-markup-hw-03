@@ -1,4 +1,5 @@
 /* reset style */
+
 ul {
   padding-inline-start: 0;
 
@@ -83,6 +84,11 @@ body {
   color: var(--ocean);
 }
 
+.section {
+  display: block;
+  unicode-bidi: isolate;
+}
+
 .container {
   padding: 120px 0;
   width: 1158px;
@@ -92,6 +98,7 @@ body {
 
 .header-container {
   display: flex;
+  padding: 120px 0;
 }
 
 .header-background {
@@ -140,13 +147,14 @@ body {
 }
 
 .primary-section {
+  display: flex;
   background-color: var(--navy-text);
   line-height: 1.07;
   padding: 188px 0;
+  justify-content: center;
 }
 
 .primary-title {
-  display: block;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -154,7 +162,7 @@ body {
   text-align: center;
   color: var(--white-text);
   background-color: var(--navy-text);
-  margin: 260px 472px;
+  margin: auto;
   max-width: 496px;
 }
 
@@ -163,18 +171,18 @@ body {
   color: var(--white-text);
   cursor: pointer;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   padding: 16px 32px 16px 32px;
-  border-radius: 4px;
   gap: 10px;
   display: block;
-  margin: 428px 636px;
+  margin: auto;
   min-width: 169px;
   height: 56px;
   border: none;
   radius: 4px;
-  align: center;
+  border-radius: 4px;
 }
 
 .primary-button:hover {
@@ -297,8 +305,7 @@ body {
   border-color: #e7e9fc;
   line-height: 1.11;
   color: var(--navy-text);
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .portfolio-title {
@@ -338,7 +345,6 @@ body {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .second-portfolio-line {
@@ -351,6 +357,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
+  margin-bottom: 8px;
 }
 
 .portfolio-paragraph {
@@ -365,8 +372,6 @@ body {
   color: var(--navy-text);
   background-color: #2e2f42;
   padding: 100px 0;
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer-paragraph {
@@ -377,5 +382,9 @@ body {
   text-align: left;
   color: var(--cloud-text);
   max-width: 264px;
+}
 
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
 }
