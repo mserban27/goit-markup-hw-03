@@ -365,9 +365,8 @@ body {
   color: var(--navy-text);
   background-color: #2e2f42;
   padding: 100px 0;
-}
-
-footer {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-paragraph {
@@ -378,6 +377,5 @@ footer {
   text-align: left;
   color: var(--cloud-text);
   max-width: 264px;
-  display: inline-block;
-  margin-bottom: 16px;
+
 }
