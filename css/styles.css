@@ -1,5 +1,11 @@
 /* reset style */
 
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
 ul {
   padding-inline-start: 0;
 
@@ -76,6 +82,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--navy-text);
+  padding: 24px 0;
 }
 
 .header-link:hover,
@@ -89,7 +96,6 @@ body {
 }
 
 .container {
-  padding: 120px 0;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -107,7 +113,6 @@ body {
 .header-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .header-address,
@@ -321,6 +326,7 @@ body {
 
 .portfolio-list {
   display: flex;
+  flex-shrink: 0;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
