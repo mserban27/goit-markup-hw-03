@@ -24,11 +24,11 @@ h1,
 h2,
 h3,
 p {
-  margin-block-start: 0;
+   /* margin-block-start: 0;
 
-  margin-block-end: 0;
+  margin-block-end: 0;*/
 
-  /* margin: 0; */
+ margin: 0; 
 }
 
 a {
@@ -227,12 +227,6 @@ body {
   gap: 24px;
 }
 
-.team-container {
-  max-width: 1440px;
-  height: 732px;
-  margin-top: 1016px;
-}
-
 .team-section {
   background-color: var(--cloud-text);
   padding: 120px 0;
@@ -246,11 +240,6 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--navy-text);
-  background-color: var(--white-text);
-  width: 162px;
-  height: 40px;
-  margin-top: 1136px;
-  margin-left: 639px;
   margin-bottom: 72px;
 }
 
